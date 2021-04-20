@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "parcel ./app/src/index.html -d public --public-url / --open",
+    "build" : "parcel build ./app/src/index.html -d public --public-url /",
     "server": "node server.js"
   },
   "keywords": [
